@@ -7,3 +7,5 @@ function pointCoord() {
   if (mouseIsPressed){print("x = "+ mouseX+ ", y = "+mouseY);}
   }
 
+export {pointCoord};
+
