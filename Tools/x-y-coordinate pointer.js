@@ -1,4 +1,4 @@
-// Define the function before setup() i.e. at the top
+// Define the function before setup() i.e. at the top if defining in same js file
 // Call the function under draw()
 function pointCoord() {
   stroke(255,0,0);
@@ -7,5 +7,4 @@ function pointCoord() {
   if (mouseIsPressed){print("x = "+ mouseX+ ", y = "+mouseY);}
   }
 
-export {pointCoord};
 
