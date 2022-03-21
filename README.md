@@ -1,17 +1,31 @@
-# SimulatingEdu: Making Interactive Animations in Education the Norm
+# GamifyingEdu:
+### 😀 Hey there! Nice to see you!!👋👋🏿👋🏽👋🏻👋🏾👋🏼
 
-### Nice to see you!!!👋👋👋
+Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? And this is probably the **fundamental flaw** of Education today. *Let Elon Musk explain you [here][elon-musk-video]*.
 
-Were(or are) you tired of dry learning from lectures and textbooks in your schooldays? Imagine a day when every single concept taught can be something visulized and played with?
+GamifyingEdu aims to exacly solve those problems through by creating games that make learning:
+1) **fun**; because they are games! And,
+2) **meaningful**; by demostrating their real world applications or their abstract beauty.
+And very importantly, these games are made such that they can be easily integrated in the classrooms with existing curriculums. 
 
-Making this real and available to all is SimulatingEdu's mission.
+Social good through accessibility to high quality educational resources if one of GamifyingEdu's top priorities, and hence it is free and open-sourced.
 
-## Technologies Used
+## Technologies Used, and Subjects Covered
 
-SimulatingEdu currently uses p5.js
+GamifyingEdu uses **[p5.js][p5js-website]**, a wonderdul javascript library that enables create interactive visualisations with code for its **Physics** games. Daniel Shiffman's Nature of Code ([book][noc-book], [video series][noc-videos]) lays the foundation of the concept of Natural Simulations used to create these games.
+
+There are plans to further extend into subjects like mathematics, economics and geography additionally using libraries like d3.js, NASA Worldwind, leaflet.js etc.
 
 ## Contributing
 
-SimulatingEdu aims to be a beginner friendly and good-first-issue repository which welcomes contributions and suggetions from all. The contributing docs for this repository are to be written as it is a new project and its structure is yet to be decided.
+GamifyingEdu aims to be a beginner friendly and good-first-issue repository which welcomes contributions and suggetions from all, in the near future.
+**Currently no PRs are accepted** as the project is new, with the repository structure is yet to be finalized, and the contributing docs yet to be written. Meanwhile, if you're really interested in the project and woud like to discuss stuff, feel free to reach me out at japrad26@gmail.com
 
-## Usage & Website
+## Website
+
+The github pages for this site is activated. Creating a proper website with custom domain is on the TODO list.
+
+[elon-musk-video]: https://www.youtube.com/watch?v=sXdfRYyzbmU
+[p5js-website]: https://www.p5js.org
+[noc-book]: https://natureofcode.com/book/preface/
+[noc-videos]: https://thecodingtrain.com/learning/nature-of-code/
