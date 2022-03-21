@@ -1,13 +1,15 @@
 # GamifyingEdu
+
 ### 😀 Hey there! Nice to see you!!👋👋🏿👋🏽👋🏻👋🏾👋🏼
 
-Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? This is probably the **fundamental flaw** of Education the way it is today. *Let Elon Musk explain you [here][elon-musk-video]*.
+Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? This is probably the **fundamental flaw** of Education the way it is today. _Let Elon Musk explain you [here][elon-musk-video]_.
 
 GamifyingEdu aims to exactly solve these problems by creating games that make learning:
-1) **fun**; because they are games! And,
-2) **meaningful**; by demostrating their real world applications or their abstract beauty.
 
-And very importantly, these games are made such that they can be easily integrated in the classrooms with existing curriculums. 
+1. **fun**; because they are games! And,
+2. **meaningful**; by demostrating their real world applications or their abstract beauty.
+
+And very importantly, these games are made such that they can be easily integrated in the classrooms with existing curriculums.
 
 Social good through accessibility to high quality educational resources if one of GamifyingEdu's top priorities, and hence it is free and open-sourced.
 
