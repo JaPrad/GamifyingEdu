@@ -2,7 +2,7 @@
 
 ### 😀 Hey there! Nice to see you!!👋👋🏿👋🏽👋🏻👋🏾👋🏼
 
-Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? These are few of the **fundamental flaws** of Education the way it is today. Not satisfied? [_Let Elon Musk tell you][elon-musk-video]_.
+Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? These are few of the **fundamental flaws of Education** the way it is today. Not satisfied? _[Let Elon Musk tell you][elon-musk-video]_.
 
 GamifyingEdu aims to exactly solve these problems by creating games that make learning:
 
@@ -26,7 +26,7 @@ GamifyingEdu aims to be a beginner friendly and good-first-issue repository whic
 
 ## Website
 
-The [github pages site][pages] for this repository is active. Creating a proper website with a custom domain is on the TODO list.
+The [github pages site][pages] for this repository is active. Creating a proper website with a custom domain is on the todo list.
 
 [elon-musk-video]: https://www.youtube.com/watch?v=sXdfRYyzbmU
 [p5js-website]: https://www.p5js.org
