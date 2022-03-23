@@ -1,0 +1,19 @@
+{
+  "name": "gamifyingedu",
+  "version": "1.0.0",
+  "description": "GamifyingEdu aims to make learning fun and meaningful through games demonstrating real-world applications or abstract beauty of concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaPatGitHub/GamifyingEdu.git"
+  },
+  "author": "Jyotiraditya Pradhan (JaPatGitHub)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaPatGitHub/GamifyingEdu/issues"
+  },
+  "homepage": "https://github.com/JaPatGitHub/GamifyingEdu#readme"
+}
