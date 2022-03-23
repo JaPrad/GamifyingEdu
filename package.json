@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JaPatGitHub/GamifyingEdu/issues"
   },
-  "homepage": "https://github.com/JaPatGitHub/GamifyingEdu#readme"
+  "homepage": "https://github.com/JaPatGitHub/GamifyingEdu#readme",
+  "devDependencies": {
+    "prettier": "2.6.0"
+  }
 }
