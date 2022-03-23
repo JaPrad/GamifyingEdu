@@ -6,7 +6,8 @@
 Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? These are few of the **fundamental flaws of Education** the way it is today. Not satisfied? _[Let Elon Musk tell you][elon-musk-video]_.
 =======
 Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? These are few of the **fundamental flaws** of Education the way it is today. Not satisfied? [\_Let Elon Musk tell you][elon-musk-video]\_.
->>>>>>> b083bae5486bd6a2e36adac370b2fc250a1a3857
+
+> > > > > > > b083bae5486bd6a2e36adac370b2fc250a1a3857
 
 GamifyingEdu aims to exactly solve these problems by creating games that make learning:
 
