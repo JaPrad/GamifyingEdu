@@ -75,7 +75,7 @@ class Slider {
 // <object-name>.status() gives value -1 if paused and 1 if unpaused
 
 class playPauseButton {
-  constructor(x, y, size, buttonColor = [255, 255, 255]){
+  constructor(x, y, size, buttonColor = [255, 255, 255]) {
     this.x = x;
     this.y = y;
     this.d = size;
@@ -83,24 +83,42 @@ class playPauseButton {
 
     this.status = 1; //-1 if paused, 1 if unpaused
   }
-  show(){
+  show() {
     strokeWeight(4);
-    stroke(...this.color)
+    stroke(...this.color);
     noFill();
     circle(this.x, this.y, this.d);
-    
-    if (this.status === -1){
-      fill(...this.color)
-      triangle(this.x + this.d/4, this.y, this.x - this.d/8, this.y + this.d/4, this.x - this.d/8, this.y - this.d/4);
-    } 
-    
-    else if (this.status === 1){
-      line (this.x + this.d/6, this.y - this.d/4, this.x + this.d/6, this.y + this.d/4);
-      line (this.x - this.d/6, this.y - this.d/4, this.x - this.d/6, this.y + this.d/4);
-    }
-    
-    if(mouseIsPressed && dist(mouseX, mouseY, this.x, this.y) <= this.d/2 && frameCount%10 === 0) {
 
+    if (this.status === -1) {
+      fill(...this.color);
+      triangle(
+        this.x + this.d / 4,
+        this.y,
+        this.x - this.d / 8,
+        this.y + this.d / 4,
+        this.x - this.d / 8,
+        this.y - this.d / 4
+      );
+    } else if (this.status === 1) {
+      line(
+        this.x + this.d / 6,
+        this.y - this.d / 4,
+        this.x + this.d / 6,
+        this.y + this.d / 4
+      );
+      line(
+        this.x - this.d / 6,
+        this.y - this.d / 4,
+        this.x - this.d / 6,
+        this.y + this.d / 4
+      );
+    }
+
+    if (
+      mouseIsPressed &&
+      dist(mouseX, mouseY, this.x, this.y) <= this.d / 2 &&
+      frameCount % 10 === 0
+    ) {
       this.status *= -1;
     }
   }
