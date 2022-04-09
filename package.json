@@ -4,7 +4,8 @@
   "description": "GamifyingEdu aims to make learning fun and meaningful through games demonstrating real-world applications or abstract beauty of concepts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uuid": "node uuid.mjs"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/JaPatGitHub/GamifyingEdu#readme",
   "devDependencies": {
     "prettier": "2.6.0"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
   }
+  
 }
