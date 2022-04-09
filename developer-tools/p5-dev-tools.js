@@ -1,4 +1,5 @@
 // START
+// uuid: 943e3e78-e4e0-4ace-a5bc-7e115a371fd4
 // Call the function under draw()
 function showCoordinates() {
   stroke(255, 0, 0);
@@ -11,7 +12,9 @@ function showCoordinates() {
 // END
 
 // START
+// uuid: 8ec1dd4e-d502-44b4-884a-d6af7edf6431
 // Call <object-name>.show() under draw()
+// <object-name>.value() gives slider value
 class Slider {
   constructor(
     x,
@@ -61,6 +64,44 @@ class Slider {
       let circleX =
         this.initialX + (this.value - this.minValue) * this.stepSize;
       circle(circleX, this.y, 10);
+    }
+  }
+}
+// END
+
+// START
+// uuid: 9b001feb-c5d4-4a99-b8bb-616d85d46d94
+// Call <object-name>.show() under draw()
+// <object-name>.status() gives value -1 if paused and 1 if unpaused
+
+class playPauseButton {
+  constructor(x, y, size, buttonColor = [255, 255, 255]){
+    this.x = x;
+    this.y = y;
+    this.d = size;
+    this.color = buttonColor;
+
+    this.status = 1; //-1 if paused, 1 if unpaused
+  }
+  show(){
+    strokeWeight(4);
+    stroke(...this.color)
+    noFill();
+    circle(this.x, this.y, this.d);
+    
+    if (this.status === -1){
+      fill(...this.color)
+      triangle(this.x + this.d/4, this.y, this.x - this.d/8, this.y + this.d/4, this.x - this.d/8, this.y - this.d/4);
+    } 
+    
+    else if (this.status === 1){
+      line (this.x + this.d/6, this.y - this.d/4, this.x + this.d/6, this.y + this.d/4);
+      line (this.x - this.d/6, this.y - this.d/4, this.x - this.d/6, this.y + this.d/4);
+    }
+    
+    if(mouseIsPressed && dist(mouseX, mouseY, this.x, this.y) <= this.d/2 && frameCount%10 === 0) {
+
+      this.status *= -1;
     }
   }
 }
