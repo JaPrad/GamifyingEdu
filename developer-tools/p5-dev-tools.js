@@ -74,14 +74,14 @@ class Slider {
 // Call <object-name>.show() under draw()
 // <object-name>.status() gives value -1 if paused and 1 if unpaused
 
-class playPauseButton {
+class PlayPauseButton {
   constructor(x, y, size, buttonColor = [255, 255, 255]) {
     this.x = x;
     this.y = y;
     this.d = size;
     this.color = buttonColor;
 
-    this.status = 1; //-1 if paused, 1 if unpaused
+    this.status = -1; //-1 if paused, 1 if unpaused
   }
   show() {
     strokeWeight(4);
