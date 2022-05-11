@@ -15,7 +15,7 @@ Social good through accessibility to high quality educational resources if one o
 
 ## Technologies Used, and Subjects Covered
 
-GamifyingEdu uses **[p5.js][p5js-website]**, a wonderdul javascript library that enables create interactive visualizations with code for its **Physics** games. [Daniel Shiffman's][shiffman-website] Nature of Code ([book][noc-book-preface], [video series][noc-videos]) lays the foundation of the concept of Natural Simulations used to create them.
+GamifyingEdu uses **[p5.js][p5js-website]**, a wonderdul javascript library that enables create interactive visualizations with code for its **Physics** games. [Daniel Shiffman's][shiffman-website] **Nature of Code** ([book][noc-book-preface], [video series][noc-videos]) lays the foundation of the concept of Natural Simulations used to create them.
 
 There are plans to further extend into subjects like mathematics, economics and geography; additionally using libraries like d3.js, NASA Worldwind, leaflet.js etc.
 
