@@ -11,7 +11,7 @@ GamifyingEdu exactly aims to solve these problems by creating games that make le
 
 And very importantly, these games are made such that they can be **easily integrated** in the classrooms with existing curriculums.
 
-Social good through accessibility to high quality educational resources if one of GamifyingEdu's top priorities, and hence it is free and open-sourced.
+Making a social impact through universal accessibility to high quality educational resources is among GamifyingEdu's top priorities, and hence it's free and open-sourced.
 
 ## Technologies Used, and Subjects Covered
 
