@@ -20,7 +20,9 @@ jobs:
       - uses: actions/stale@v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-issue-message: "No activity since past 60 days"
-          stale-pr-message: "No activity since past 60 days"
+          days-before-stale: 90
+          stale-issue-message: "No activity since past 90 days"
+          stale-pr-message: "No activity since past 90 days"
           stale-issue-label: "no-activity"
           stale-pr-label: "no-activity"
+          days-before-close: -1
