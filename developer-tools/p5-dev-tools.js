@@ -1,20 +1,23 @@
 // START
+// title: Log Coordinates
 // uuid: 943e3e78-e4e0-4ace-a5bc-7e115a371fd4
-// Call the function under draw()
-function showCoordinates() {
+// instuction: Call the function under draw()
+// return-value: x & y coordinate of the point on which mouse is clicked
+function logCoordinates() {
   stroke(255, 0, 0);
   line(mouseX, 0, mouseX, height); // line parallel to y-axis
   line(0, mouseY, width, mouseY); // line parallel to x-axis
   if (mouseIsPressed) {
-    console.log(`x = ${mouseX}, y = ${mouseY}`); //log coordinates
+    console.log(`x = ${mouseX}, y = ${mouseY}`); // logs coordinates
   }
 }
 // END
 
 // START
+// title: Slider
 // uuid: 8ec1dd4e-d502-44b4-884a-d6af7edf6431
-// Call <object-name>.show() under draw()
-// <object-name>.value() gives slider value
+// instruction: Call <object-name>.show() under draw()
+// return-value: <object-name>.value() gives slider value
 class Slider {
   constructor(
     x,
@@ -70,9 +73,10 @@ class Slider {
 // END
 
 // START
+// title: Play-Pause Button
 // uuid: 9b001feb-c5d4-4a99-b8bb-616d85d46d94
-// Call <object-name>.show() under draw()
-// <object-name>.status() gives value -1 if paused and 1 if unpaused
+// instruction: Call <object-name>.show() under draw()
+// return-value: <object-name>.status() gives value -1 if paused and 1 if unpaused
 
 class PlayPauseButton {
   constructor(x, y, size, buttonColor = [255, 255, 255]) {
