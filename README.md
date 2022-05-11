@@ -2,9 +2,9 @@
 
 ### 😀 Hey there! Nice to see you!!👋👋🏿👋🏽👋🏻👋🏾👋🏼
 
-Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like videogames?(I bet you have) And ever realized partly a reason for this is you don't know **why** you're learning the stuff that you're learning? These are few of the **fundamental flaws of Education** the way it is today. Not satisfied? _[Let Elon Musk tell you][elon-musk-video]_.
+Ever felt horrible studying in school because the world has stuff a hundred time more **interesting** to do, like playing video-games?(I bet you have) And ever realized partly a reason for this is you don't know **why** on earth you're learning the stuff that you're learning? These are two of the **fundamental flaws of education** the way it is today. Not satisfied? _[Let Elon Musk tell you][elon-musk-video]_.
 
-GamifyingEdu aims to exactly solve these problems by creating games that make learning:
+GamifyingEdu exactly aims to solve these problems by creating games that make learning:
 
 1. **fun**; because they are games! And,
 2. **meaningful**; by demostrating real world applications of concepts or their abstract beauty.
@@ -22,15 +22,15 @@ There are plans to further extend into subjects like mathematics, economics and 
 ## Contributing
 
 GamifyingEdu aims to be a beginner friendly and good-first-issue repository which welcomes contributions and suggetions from all, in the near future.
-**Currently no PRs are accepted** as the project is new, with the repository structure yet to be finalized, and the contributing docs yet to be written. Meanwhile, if you're really interested in the project and woud like to discuss stuff, feel free to reach me out at japrad26@gmail.com
+**Currently no PRs are accepted** as the project is new, with the repository structure yet to be finalized, and the contributing docs yet to be written. Meanwhile, if you're really interested in the project and woud like to discuss stuff and join me, feel free to reach me out at japrad26@gmail.com
 
 ## Website
 
-The [github pages site][pages] for this repository is active. Creating a proper website with a custom domain is on the todo list.
+The [github pages site][github-pages] for this repository is active. Creating a proper website with a custom domain is on the todo list.
 
 [elon-musk-video]: https://www.youtube.com/watch?v=sXdfRYyzbmU
 [p5js-website]: https://www.p5js.org
 [shiffman-website]: https://shiffman.net/
 [noc-book-preface]: https://natureofcode.com/book/preface/
 [noc-videos]: https://thecodingtrain.com/learning/nature-of-code/
-[pages]: https://japatgithub.github.io/GamifyingEdu
+[github-pages]: https://japatgithub.github.io/GamifyingEdu
