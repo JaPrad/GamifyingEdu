@@ -1,7 +1,7 @@
 // START
 // title: Log Coordinates
 // uuid: 943e3e78-e4e0-4ace-a5bc-7e115a371fd4
-// instuction: Call the function under draw()
+// instruction: Call the function under draw()
 // return-value: x & y coordinate of the point on which mouse is clicked
 function logCoordinates() {
   stroke(255, 0, 0);
@@ -62,7 +62,7 @@ class Slider {
       circle(mouseX, this.y, 10);
 
       this.value =
-        this.minValue + floor((mouseX - this.initialX) / this.stepSize); // Value derived from slider
+        this.minValue + floor((mouseX - this.initialX) / this.stepSize) * step; // Value derived from slider
     } else {
       let circleX =
         this.initialX + (this.value - this.minValue) * this.stepSize;
