@@ -33,8 +33,11 @@ class Slider {
     this.initialX = x - size / 2; // Starting x coordinate of line
     this.finalX = x + size / 2; // Ending x coordinate of line
     this.y = y;
-
     this.minValue = minValue;
+    this.step = step;
+
+    this.sizePerUnit = ((this.finalX - this.initialX) / (maxValue - minValue))
+
     this.numOfSteps = floor((maxValue - minValue) / step); // Number of Steps
     this.stepSize = size / this.numOfSteps; // Length of Each step in pixels
 
@@ -52,20 +55,24 @@ class Slider {
     noStroke();
     fill(...this.circleColor);
 
+
+
     if (
       mouseIsPressed &&
       mouseX >= this.initialX &&
-      mouseX <= this.finalX + 5 &&
+      mouseX <= this.finalX &&
       mouseY >= this.y - 10 &&
       mouseY <= this.y + 10
     ) {
       circle(mouseX, this.y, 10);
 
-      this.value =
-        this.minValue + floor((mouseX - this.initialX) / this.stepSize) * step; // Value derived from slider
+      this.realValue =
+        this.minValue + floor((mouseX - this.initialX) / this.sizePerUnit); // Value derived from slider
+
+      this.value = this.realValue - (this.realValue % this.step)
     } else {
       let circleX =
-        this.initialX + (this.value - this.minValue) * this.stepSize;
+        this.initialX + (this.value - this.minValue) * this.sizePerUnit;
       circle(circleX, this.y, 10);
     }
   }
