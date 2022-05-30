@@ -30,4 +30,4 @@ Good luck captain!
 
 ## Help
 
-<a href = ".docs/formula-sheet.md" target="_blank">Formula Sheet</a> | <a href = ".docs/learning-resources.md" target="_blank">Learning Resources</a> | <a href = "https://www.calculator.net/scientific-calculator.html" target="_blank">Calculator</a>
+<a href = "formula-sheet.md" target="_blank">Formula Sheet</a> | <a href = "learning-resources.md" target="_blank">Learning Resources</a> | <a href = "https://www.calculator.net/scientific-calculator.html" target="_blank">Calculator</a>
