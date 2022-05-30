@@ -117,14 +117,12 @@ class PlayPauseButton {
         this.y + this.d / 4
       );
     }
-
-    if (
-      mouseIsPressed &&
-      dist(mouseX, mouseY, this.x, this.y) <= this.d / 2 &&
-      frameCount % 10 === 0
-    ) {
+}
+  
+  update(){
+    if (dist(mouseX, mouseY, this.x, this.y) <= this.d / 2 ) {
       this.status *= -1;
     }
-  }
+  } 
 }
 // END
