@@ -2,6 +2,9 @@
 let fps = 100; // Frames per second
 let conversionFactor = 2;
 
+let ppButton;
+let angleSlider;
+
 let gameOver = "no"
 
 let gunAngle; // Angle of projectile
@@ -172,6 +175,8 @@ function draw() {
 }
 
 function mousePressed() {
+  
+  ppButton.update()
   
   if (mouseX >= 10 && mouseX <= 82 && mouseY >= (height/2 - 10 - 20) && mouseY <= (height/2 -10 + 20)) {
     
