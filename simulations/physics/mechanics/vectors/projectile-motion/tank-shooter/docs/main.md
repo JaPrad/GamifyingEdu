@@ -45,4 +45,4 @@ If the tanks come too close, your gun will be destroyed/
 
 ## Help
 
-<a href = "docs/formula-sheet.md" target="_blank">Formula Sheet</a> | <a href = "docs/learning-resources.md" target="_blank">Learning Resources</a> | <a href = "https://www.calculator.net/scientific-calculator.html" target="_blank">Calculator</a>
+<a href = "docs/formula-sheet.html" target="_blank">Formula Sheet</a> | <a href = "docs/learning-resources.html" target="_blank">Learning Resources</a> | <a href = "https://www.calculator.net/scientific-calculator.html" target="_blank">Calculator</a>
