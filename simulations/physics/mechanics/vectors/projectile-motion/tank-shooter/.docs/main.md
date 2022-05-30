@@ -20,10 +20,14 @@ Good luck captain!
 
 ## Units and Variables
 
-- All units are in SI
+- All units are in SI ($m, m/s, m/s^2$)
 
 - `Acceleration due to Gravity`: 10
 
 - `Firing Velocity`: Adjustable
 
 - `Gun Angle`: Adjustable between 0, 15, 30, 25, 60, 75 and 90 degrees
+
+## Help
+
+<a href = ".docs/formula-sheet.md" target="_blank">Formula Sheet</a> | <a href = ".docs/learning-resources.md" target="_blank">Learning Resources</a> | <a href = "https://www.calculator.net/scientific-calculator.html" target="_blank">Calculator</a>

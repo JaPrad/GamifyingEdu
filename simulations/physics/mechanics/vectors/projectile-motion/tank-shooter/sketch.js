@@ -8,7 +8,7 @@ let gunAngle; // Angle of projectile
 let gunLen = 47  // Length of gun
 let gunColor = 100 // 0 if hit
 let projectile = null; // Null value if object not created/deleted
-let firingVelocity = 500
+let firingVelocity = 90;
 
 let target = null;
 let targetStatus = "active"; // "destroyed" if hit by projectile
@@ -81,32 +81,25 @@ function draw() {
   
   noStroke()
   fill(0, 200, 0, 50)
-  rect(100, height/2 + 20, 250, 200 ) // Contol Panel Green Background
+  rect(100, height/2 + 20, 250, 200 ) // Contol Panel green background
   
   textSize(30)
   fill(255)
   stroke(0)
   strokeWeight(4)
-  text("Enemy Details", width - 100, height/2 - 50)
-  
-
-  textSize(25)
-  fill(0)
-  stroke(0)
-  strokeWeight(1)
-  text("Distance", width - 125, height/2)
-  text("Velocity", width - 125, height/2 + 50)
+  text("Enemy Distance", width - 70, height/2 - 50, 100)
   
   if (target != null){
+    textSize(25)
+    strokeWeight(1)
     stroke(255, 0, 0);
     fill(255, 0, 0)
-    text(floor(target.x), width - 35, height/2)
-    text(floor(target.v), width - 35, height/2 + 50)
+    text(floor(target.x) * conversionFactor, width - 70, height/2 +50)
   }
   
   noStroke()
   fill(225, 0, 0, 120);
-  rect(width - 100, height/2 , 200, 160); // Enemy Details red background
+  rect(width - 70, height/2 , 150, 150); // Enemy Details red background
   
   
   
