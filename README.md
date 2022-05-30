@@ -11,8 +11,6 @@ GamifyingEdu exactly aims to solve these problems by creating games that make le
 
 And very importantly, these games are made such that they can be **easily integrated** in the classrooms with existing curriculums.
 
-Making a social impact through universal accessibility to high quality educational resources is among GamifyingEdu's top priorities, and hence it's free and open-sourced.
-
 ## Technologies Used, and Subjects Covered
 
 GamifyingEdu uses **[p5.js][p5js-website]**, a wonderdul javascript library that enables create interactive visualizations with code for its **Physics** games. [Daniel Shiffman's][shiffman-website] **Nature of Code** ([book][noc-book-preface], [video series][noc-videos]) lays the foundation of the concept of Natural Simulations used to create them.
