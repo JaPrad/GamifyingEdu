@@ -179,7 +179,7 @@ function draw() {
   strokeWeight(2);
 }
 
-function mousePressed() {
+function mouseClicked() {
   
   ppButton.update()
   
