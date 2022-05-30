@@ -1,5 +1,3 @@
-
-let fps = 100; // Frames per second
 let conversionFactor = 2;
 
 let ppButton;
@@ -11,7 +9,7 @@ let gunAngle; // Angle of projectile
 let gunLen = 47  // Length of gun
 let gunColor = 100 // 0 if hit
 let projectile = null; // Null value if object not created/deleted
-let firingVelocity = 90;
+let firingVelocity = 140;
 
 let target = null;
 let targetStatus = "active"; // "destroyed" if hit by projectile
@@ -116,6 +114,13 @@ function draw() {
     fill(255, 0, 0)
     textSize(15)
     text(i * conversionFactor, i, height - 45) //Numbering
+  }
+
+  if (gameOver === "yes"){
+    textSize(80)
+    fill(245, 0, 0)
+    stroke(245, 0, 0)
+    text("GAME OVER", width/2, height/2)
   }
   
   // End of Controls & Display
