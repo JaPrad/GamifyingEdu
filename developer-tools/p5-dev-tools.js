@@ -82,7 +82,7 @@ class Slider {
 // START
 // title: Play-Pause Button
 // uuid: 9b001feb-c5d4-4a99-b8bb-616d85d46d94
-// instruction: Call <object-name>.show() under draw()
+// instruction: Call <object-name>.show() under draw() and <object-name>.update() under mouseClicked() or similar
 // return-value: <object-name>.status() gives value -1 if paused and 1 if unpaused
 
 class PlayPauseButton {
@@ -124,14 +124,12 @@ class PlayPauseButton {
         this.y + this.d / 4
       );
     }
-
-    if (
-      mouseIsPressed &&
-      dist(mouseX, mouseY, this.x, this.y) <= this.d / 2 &&
-      frameCount % 10 === 0
-    ) {
+}
+  
+  update(){
+    if (dist(mouseX, mouseY, this.x, this.y) <= this.d / 2 ) {
       this.status *= -1;
     }
-  }
+  } 
 }
 // END
