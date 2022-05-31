@@ -35,7 +35,7 @@ If the tanks come too close, your gun will be destroyed/
 
 ## Units and Variables
 
-- All units are in SI ($m, m/s, m/s^2$)
+- All units are in SI (metre, metre per second, metre per second squared )
 
 - `Acceleration due to Gravity`: 10
 

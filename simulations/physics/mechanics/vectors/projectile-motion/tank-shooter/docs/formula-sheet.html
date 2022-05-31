@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <script
-    type="module"
-    src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
-  ></script>
+
+        <title>Formula Sheet (Projectile Motion)</title>
+
+        <script>
+            window.MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              },
+              svg: {
+                fontCache: 'global'
+              }
+            };
+            </script>
+            <script async type="text/javascript" id="MathJax-script"
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+       
     </head>
     <body>
-        <zero-md src="formula-sheet.md"></zero-md>
+        <h1 id="formula-sheet-projectile-motion-">Formula Sheet (Projectile Motion)</h1>
+        <p>The range(distance travelled) by a body in projectile motion is given by:
+
+        $$
+        R = \frac{u^2 sin2\theta}{g}
+        \implies u = \sqrt{\frac{Rg}{sin2\theta}}
+        $$
+
+        <p>where, <br>
+        $R =$ Range <br>
+        $u =$ Initial Velocity <br>
+        $\theta =$ Initial Angle <br>
+        $g =$ Acceleration due to Gravity</p>
+
     </body>
 </html>
