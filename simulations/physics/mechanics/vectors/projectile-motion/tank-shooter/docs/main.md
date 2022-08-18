@@ -13,23 +13,23 @@ Good luck captain!
 ## Instructions
 
 - Use the button on top left to play/pause.
-Feel free to puse whenever you need time for calculations
+Feel free to pause whenever you need time for calculations
 
 - The green `Control Panel` on the left shows you your gun details & controls.
 
 - Use the blue coloured `Change` text on the control panel to change firing velocity.
 Use the slider to change gun angle.
 
-- Use the `Fire` button to fire you shell, when ready. 
+- Use the `Fire` button to fire your shell when ready. It moves really fast so don't be surprised if you don't notice it the first time! 
 
 - The red coloured `Enemy Distance` panel keeps a tab of how far the tank is from you.
-If the tanks come too close, your gun will be destroyed/
+If the tanks come too close, your gun will be destroyed.
 
 - The score is shown in the top right
 
 ## Scoring
 
-- \+ 40 for successful shots destryoing enemy tanks
+- \+ 40 for successful shots destroying enemy tanks
 
 - \- 10 for unsucessful shots which waste your shells
 
