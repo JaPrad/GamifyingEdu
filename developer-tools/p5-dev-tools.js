@@ -36,7 +36,7 @@ class Slider {
     this.minValue = minValue;
     this.step = step;
 
-    this.sizePerUnit = ((this.finalX - this.initialX) / (maxValue - minValue))
+    this.sizePerUnit = (this.finalX - this.initialX) / (maxValue - minValue);
 
     this.numOfSteps = floor((maxValue - minValue) / step); // Number of Steps
     this.stepSize = size / this.numOfSteps; // Length of Each step in pixels
@@ -55,8 +55,6 @@ class Slider {
     noStroke();
     fill(...this.circleColor);
 
-
-
     if (
       mouseIsPressed &&
       mouseX >= this.initialX &&
@@ -69,7 +67,7 @@ class Slider {
       this.realValue =
         this.minValue + floor((mouseX - this.initialX) / this.sizePerUnit); // Value derived from slider
 
-      this.value = this.realValue - (this.realValue % this.step)
+      this.value = this.realValue - (this.realValue % this.step);
     } else {
       let circleX =
         this.initialX + (this.value - this.minValue) * this.sizePerUnit;
@@ -124,12 +122,12 @@ class PlayPauseButton {
         this.y + this.d / 4
       );
     }
-}
-  
-  update(){
-    if (dist(mouseX, mouseY, this.x, this.y) <= this.d / 2 ) {
+  }
+
+  update() {
+    if (dist(mouseX, mouseY, this.x, this.y) <= this.d / 2) {
       this.status *= -1;
     }
-  } 
+  }
 }
 // END
