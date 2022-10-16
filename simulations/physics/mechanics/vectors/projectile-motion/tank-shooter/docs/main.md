@@ -13,12 +13,13 @@ Good luck captain!
 ## Instructions
 
 - Use the button on top left to play/pause.
+
 Feel free to pause whenever you need time for calculations
 
 - The green `Control Panel` on the left shows you your gun details & controls.
 
 - Use the blue coloured `Change` text on the control panel to change firing velocity.
-Use the slider to change gun angle.
+  Use the slider to change gun angle.
 
 - Use the `Fire` button to fire your shell when ready. It moves really fast so don't be surprised if you don't notice it the first time! 
 
