@@ -18,5 +18,6 @@ class Projectile {
   update() {
     this.vel.add(this.acc);
     this.pos.add(this.vel);
+    this.pos.add(p5.Vector.mult(this.vel ,deltaTime/1000))
   }
 }
