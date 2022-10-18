@@ -18,7 +18,7 @@ let destroyedTargets = []; // Array to store destroyed target objects
 score = 0;
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(900, 500);
   angleMode(DEGREES);
   frameRate(60); // Setting frame rate
 
