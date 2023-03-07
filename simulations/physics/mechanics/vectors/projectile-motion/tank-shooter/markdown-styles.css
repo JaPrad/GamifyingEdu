@@ -1,0 +1,13 @@
+h1, h2, p, a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+code {
+    background-color: rgb(91, 91, 91);
+    border-radius: 5px;
+    padding: 0 3px 0 3px;
+}
